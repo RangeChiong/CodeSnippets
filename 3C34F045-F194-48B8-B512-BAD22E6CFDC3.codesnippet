@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>weak</string>
+	<string>zs</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, weak) &lt;#ClassName#&gt; &lt;#Instance#&gt;;</string>
+	<string>/**&lt; &lt;#此处注释#&gt; */</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>133487AC-5123-4832-BB77-DD53F3E5843F</string>
+	<string>3C34F045-F194-48B8-B512-BAD22E6CFDC3</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>描述一个weak类型的属性</string>
+	<string>在尾部注释 不占空间</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Property:Weak</string>
+	<string>尾部注释</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,24 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>copy</string>
+	<string>weak</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, copy) &lt;#ClassName#&gt; &lt;#Instance#&gt;;</string>
+	<string>@property (nonatomic, weak) &lt;#type#&gt; &lt;#Instance#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>0F77A2C3-28D2-4558-951B-D18A8F6CD551</string>
+	<string>514AE8FB-FBCE-4C4D-AF99-22E985A4680A</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>描述一个copy类型的属性</string>
+	<string>声明一个weak类型的属性</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Property:Copy</string>
+	<string>Property:Weak</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

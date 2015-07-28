@@ -3,24 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>zs</string>
+	<string>strong</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/**&lt; &lt;#此处注释#&gt; */</string>
+	<string>@property (nonatomic, strong) &lt;#type#&gt; &lt;#Instance#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>AAFE743D-8AF6-4AAC-A5B9-8D7562985C40</string>
+	<string>1F2868B3-5F1F-40BE-8853-71690E579150</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>在尾部注释 不占空间</string>
+	<string>声明一个strong类型的属性</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>尾部注释</string>
+	<string>Property:Strong</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
