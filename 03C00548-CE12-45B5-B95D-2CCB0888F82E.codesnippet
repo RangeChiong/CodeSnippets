@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>zs</string>
+	<string>fg</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>//!&lt; &lt;#此处注释#&gt;</string>
+	<string>//--------------------------&lt;#此处注释#&gt;--------------------------</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>3C34F045-F194-48B8-B512-BAD22E6CFDC3</string>
+	<string>03C00548-CE12-45B5-B95D-2CCB0888F82E</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>在尾部注释 不占空间</string>
+	<string>就是分割线啊</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>尾部注释</string>
+	<string>分割线</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
