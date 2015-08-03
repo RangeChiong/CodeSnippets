@@ -11,33 +11,30 @@
 	<key>IDECodeSnippetContents</key>
 	<string>#pragma mark - UITableViewDataSource
 
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    return &lt;#number#&gt;;
-}
-
-- (NSInteger)tableView:(UITableView *)tableView
- numberOfRowsInSection:(NSInteger)section
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     return &lt;#number#&gt;;
 }
 
-- (UITableViewCell *)tableView:(UITableView *)tableView
-         cellForRowAtIndexPath:(NSIndexPath *)indexPath
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:&lt;#reuseIdentifier#&gt; forIndexPath:&lt;#indexPath#&gt;];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:&lt;#reuseIdentifier#&gt;];
+
+    if (!cell) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:&lt;#reuseIdentifier#&gt;]
+    }
 
     [self configureCell:cell forRowAtIndexPath:indexPath];
 
     return cell;
 }
 
-- (void)configureCell:(UITableViewCell *)cell
-    forRowAtIndexPath:(NSIndexPath *)indexPath
+- (void)configureCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath
 {
     &lt;#statements#&gt;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>308E559C-BADD-4696-9DE7-C2632D170CC0</string>
+	<string>BE5141FC-D73F-4051-B193-B41F9B949423</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
