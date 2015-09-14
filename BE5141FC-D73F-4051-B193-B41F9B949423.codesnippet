@@ -21,7 +21,7 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:&lt;#reuseIdentifier#&gt;];
 
     if (!cell) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:&lt;#reuseIdentifier#&gt;]
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:&lt;#reuseIdentifier#&gt;];
     }
 
     [self configureCell:cell forRowAtIndexPath:indexPath];
