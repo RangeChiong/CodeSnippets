@@ -3,21 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>log</string>
+	<string>hideStatusBar</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>NSLog(@"&lt;#name#&gt;-------------&gt; &lt;#placeHold#&gt;", &lt;#name#&gt;);</string>
+	<string>- (BOOL)prefersStatusBarHidden {
+
+    return YES;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>0C60D0C8-376A-40B7-86F9-28A8361F9C8A</string>
+	<string>409C2C35-6A5E-4398-9225-8F16A13A8F2D</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>输出到控制台</string>
+	<string>RT</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>打印</string>
+	<string>隐藏状态栏</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
