@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pragmaSG</string>
+	<string>pragmaButton</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark-   Setter &amp; Getter</string>
+	<string>#pragma mark-   按钮点击事件</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>A969BBF0-288C-4831-A788-DC3BC9E71BFE</string>
+	<string>CF8B7B83-2A4E-4A37-99C9-423C197A0E09</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>标记setter和getter方法</string>
+	<string>RT</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Setter &amp; Getter</string>
+	<string>按钮点击事件的宏定义</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
