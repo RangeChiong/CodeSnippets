@@ -3,24 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>mGet</string>
+	<string>zhushi</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (&lt;#type#&gt;)&lt;#name#&gt; {
-    if (!_&lt;#name#&gt;) {
-        &lt;#code#&gt;
-    }
-    return _&lt;#name#&gt;;
-}</string>
+	<string>/** &lt;#这里写注释#&gt; */</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>2F07C6F9-D7F5-4572-B497-6993ABA50D4C</string>
+	<string>7E4E6F32-D79D-48CE-B75B-1E0772DA4BEC</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>方法和变量都可使用</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Getter方法</string>
+	<string>注释  需占用一行</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
