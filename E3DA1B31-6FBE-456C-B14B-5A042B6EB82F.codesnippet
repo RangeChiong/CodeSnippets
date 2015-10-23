@@ -11,7 +11,7 @@
 	<key>IDECodeSnippetContents</key>
 	<string>
 + (instancetype)&lt;#name#&gt;:(&lt;#UIViewController *#&gt;)superVC {
-    return [[RPDoneTopView alloc] initWithSuperVC:superVC];
+    return [[&lt;#type#&gt; alloc] initWithSuperVC:superVC];
 }
 
 - (instancetype)initWithSuperVC:(&lt;#UIViewController *#&gt;)superVC
@@ -48,6 +48,6 @@
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>
