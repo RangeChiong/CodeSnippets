@@ -3,30 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>vm</string>
+	<string>pm</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (&lt;#class name#&gt;)viewModel {
-    if (!_viewModel) {
-        _viewModel = ({
-            &lt;#class name#&gt; viewModel = [[&lt;#class name#&gt; alloc] init];
-            viewModel;
-        });
-    }
-    return _viewModel;
-}
-</string>
+	<string>#pragma mark-  &lt;#这里写释义#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>F144C989-1CB4-4A98-AF21-ED37AC29FE24</string>
+	<string>7092D62A-C577-4600-B1CB-11DADBC7A442</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>viewModel的懒加载get方法</string>
+	<string>pragma mark</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>viewModel</string>
+	<string>宏 标记 段落 mark</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
