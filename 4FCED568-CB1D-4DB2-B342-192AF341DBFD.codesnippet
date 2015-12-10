@@ -3,48 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>viewinit</string>
+	<string>viewModel</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>
-+ (instancetype)&lt;#name#&gt;:(&lt;#UIViewController *#&gt;)superVC {
-    return [[&lt;#type#&gt; alloc] initWithSuperVC:superVC];
-}
-
-- (instancetype)initWithSuperVC:(&lt;#UIViewController *#&gt;)superVC
-{
-    self = [super init];
-    if (self) {
-
-        &lt;#vc_super#&gt; = superVC;
-
-        [self _initSelf];
-
-        [self setupSubviews];
+	<string>- (&lt;#ClassName#&gt; *)viewModel {
+    if (!_viewModel) {
+        _viewModel = [[&lt;#ClassName#&gt; alloc] init];
     }
-    return self;
-}
-
-// 自身的一些属性初始化
-- (void)_initSelf {
-
-}
-
-// 子视图的初始化
-- (void)setupSubviews {
-
+    return _viewModel;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E3DA1B31-6FBE-456C-B14B-5A042B6EB82F</string>
+	<string>4FCED568-CB1D-4DB2-B342-192AF341DBFD</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>View加载model和加载自身的方法</string>
+	<string>viewModel的getter方法</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>View初始化的方法</string>
+	<string>ViewModel Getter</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
