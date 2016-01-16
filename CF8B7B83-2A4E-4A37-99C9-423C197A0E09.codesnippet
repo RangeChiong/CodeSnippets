@@ -9,15 +9,15 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark-   按钮点击事件</string>
+	<string>#pragma mark-   touch action</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>CF8B7B83-2A4E-4A37-99C9-423C197A0E09</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>RT</string>
+	<string>包括按钮点击 手势 等等</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>按钮点击事件的宏定义</string>
+	<string>touch事件的宏定义</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
