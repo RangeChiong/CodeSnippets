@@ -9,7 +9,7 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    if (self == [super init]) {
+	<string>    if (self = [super init]) {
         &lt;#code#&gt;
     }
     return self;</string>
