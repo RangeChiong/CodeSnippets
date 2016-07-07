@@ -3,29 +3,31 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>viewModel</string>
+	<string>share</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (&lt;#ClassName#&gt; *)viewModel {
-    if (!_viewModel) {
-        _viewModel = [[&lt;#ClassName#&gt; alloc] init];
-    }
-    return _viewModel;
+	<string>+ (instancetype)shareInstance {
+    static id instance;
+    static dispatch_once_t onceToken;
+    dispatch_once(&amp;onceToken, ^{
+        instance = [[self alloc] init];
+    });
+    return instance;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>4FCED568-CB1D-4DB2-B342-192AF341DBFD</string>
+	<string>52E31955-0DE7-42A6-B260-F35789D1B8E8</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>viewModel的getter方法</string>
+	<string>创建单例的代码块</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>ViewModel Getter</string>
+	<string>创建单例</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
