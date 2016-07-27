@@ -9,7 +9,7 @@
 		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, copy) &lt;#NSString#&gt; &lt;#*Instance#&gt;;</string>
+	<string>@property (nonatomic, copy) &lt;#NSString *#&gt;&lt;#Instance#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>26F928A1-366C-4324-9F3E-3260DCF6143A</string>
 	<key>IDECodeSnippetLanguage</key>
