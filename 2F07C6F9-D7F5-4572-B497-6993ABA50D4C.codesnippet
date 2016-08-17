@@ -10,9 +10,8 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>- (&lt;#type#&gt;)&lt;#name#&gt; {
-    if (!_&lt;#name#&gt;) {
-        &lt;#code#&gt;
-    }
+    if (_&lt;#name#&gt;) return _&lt;#name#&gt;;
+    _&lt;#name#&gt; = &lt;#alloc#&gt;
     return _&lt;#name#&gt;;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
