@@ -3,23 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>mGet</string>
+	<string>getter</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (&lt;#type#&gt;)&lt;#name#&gt; {
-    if (_&lt;#name#&gt;) return _&lt;#name#&gt;;
+	<string>    if (_&lt;#name#&gt;) return _&lt;#name#&gt;;
     _&lt;#name#&gt; = &lt;#alloc#&gt;
-    return _&lt;#name#&gt;;
-}</string>
+    return _&lt;#name#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>2F07C6F9-D7F5-4572-B497-6993ABA50D4C</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Getter方法体</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Getter方法</string>
+	<string>Getter方法体</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

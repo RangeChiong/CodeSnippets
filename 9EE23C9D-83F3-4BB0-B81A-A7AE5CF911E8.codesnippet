@@ -10,7 +10,9 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>@interface &lt;#Class Name#&gt; ()
+
 &lt;#Continuation#&gt;
+
 @end</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>9EE23C9D-83F3-4BB0-B81A-A7AE5CF911E8</string>

@@ -3,24 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>afk</string>
+	<string>timeConsuming</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark- 隐藏键盘
-- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
-    [self.view endEditing:YES];
-}</string>
+	<string>    CFTimeInterval startTime = CACurrentMediaTime();
+    &lt;#code here#&gt;
+    CFTimeInterval endTime = CACurrentMediaTime();
+    CFTimeInterval consumingTime = endTime - startTime;
+    NSLog(@"%s: Took [%f] seconds to run", __PRETTY_FUNCTION__, consumingTime);</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>DFC6B49D-5FDE-4225-80DF-AC79945094DF</string>
+	<string>9652FECC-F8EB-429D-84D9-8F83A07E6F33</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>触摸屏幕隐藏键盘</string>
+	<string>代码执行耗时计算</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>隐藏键盘</string>
+	<string>代码执行耗时计算</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

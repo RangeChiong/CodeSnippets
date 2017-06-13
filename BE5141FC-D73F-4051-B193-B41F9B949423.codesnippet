@@ -23,13 +23,7 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:reuseIdentifier];
     }
 
-    [self configureCell:cell forRowAtIndexPath:indexPath];
-
     return cell;
-}
-
-- (void)configureCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath {
-    &lt;#statements#&gt;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>BE5141FC-D73F-4051-B193-B41F9B949423</string>

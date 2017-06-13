@@ -3,24 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>afk</string>
+	<string>viewWillLayoutSubviews</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark- 隐藏键盘
-- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
-    [self.view endEditing:YES];
+	<string>- (void)viewWillLayoutSubviews {
+    [super viewWillLayoutSubviews];
+    &lt;#code#&gt;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>DFC6B49D-5FDE-4225-80DF-AC79945094DF</string>
+	<string>BA03C6CA-7982-4CBE-9D8B-013822AAC5ED</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>触摸屏幕隐藏键盘</string>
+	<string>viewWillLayoutSubviews</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>隐藏键盘</string>
+	<string>viewWillLayoutSubviews</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
