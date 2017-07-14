@@ -9,7 +9,7 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>NSLog(@"&lt;#name#&gt;-------------&gt; &lt;#placeHold#&gt;", &lt;#name#&gt;);</string>
+	<string>NSLog(@"&lt;#thread#&gt; -------------&gt; &lt;#%@#&gt;", &lt;#[NSThread currentThread]#&gt;);</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>0C60D0C8-376A-40B7-86F9-28A8361F9C8A</string>
 	<key>IDECodeSnippetLanguage</key>

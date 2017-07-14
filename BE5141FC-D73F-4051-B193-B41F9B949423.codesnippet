@@ -12,11 +12,11 @@
 	<string>#pragma mark- Table view data source
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return &lt;#number#&gt;;
+    return &lt;#10#&gt;;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    static NSString * reuseIdentifier = &lt;#reuseIdentifier#&gt;;
+    static NSString * reuseIdentifier = &lt;#@"reuseIdentifier"#&gt;;
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:reuseIdentifier];
 
     if (!cell) {

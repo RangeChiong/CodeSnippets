@@ -3,27 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>xh</string>
+	<string>makestrongify</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)dealloc {
-    NSLog(@"%@ dealloc", NSStringFromClass([self class]));
-}
-</string>
+	<string>@strongifyAndReturnIfNil(&lt;#self#&gt;);</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>0395E724-96A8-4203-8EED-497FCA2B2A11</string>
+	<string>2CFC8804-473A-4ACC-B88A-E4716F59E104</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>dealloc log</string>
+	<string>strongify</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>dealloc的打印日志</string>
+	<string>strongify</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

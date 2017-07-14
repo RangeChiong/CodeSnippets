@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>makeWeak</string>
+	<string>makeweakself</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>__weak typeof(self) weakSelf = self;</string>
+	<string>__weak typeof(self) weakself = self;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>C220132A-773B-4931-8EB2-7DC91DE1E2AD</string>
 	<key>IDECodeSnippetLanguage</key>
