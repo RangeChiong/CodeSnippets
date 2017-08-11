@@ -11,16 +11,16 @@
 	<key>IDECodeSnippetContents</key>
 	<string>@weakify(&lt;#block#&gt;);</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>4EAB4CEA-6C65-4C46-8B4F-D208430ED34D</string>
+	<string>61A60BF4-A9DB-4A27-A927-D50611983DC6</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>weakify</string>
+	<string>weak ref obj in block</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>weakify</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
