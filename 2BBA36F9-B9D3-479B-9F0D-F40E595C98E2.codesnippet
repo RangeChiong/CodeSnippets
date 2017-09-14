@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>strongself</string>
+	<string>ifreturn</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>__strong typeof(weakself) self = weakself;</string>
+	<string>if (&lt;#statement#&gt;) return &lt;#result#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>0C6E8FFA-07E8-420B-8F1F-01A09A94D2C7</string>
+	<string>2BBA36F9-B9D3-479B-9F0D-F40E595C98E2</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Declare strong reference to weakself</string>
+	<string>快捷if return语句</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>__strong self</string>
+	<string>if() return;</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
