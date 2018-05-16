@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark- Lifecycle</string>
+	<string>#pragma mark- *** Lifecycle ***</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>E078002F-8D97-4018-BDEA-5DF7D6CCD5C2</string>
 	<key>IDECodeSnippetLanguage</key>

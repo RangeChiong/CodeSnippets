@@ -9,7 +9,7 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark-   touch action</string>
+	<string>#pragma mark-   *** touch action ***</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>CF8B7B83-2A4E-4A37-99C9-423C197A0E09</string>
 	<key>IDECodeSnippetLanguage</key>

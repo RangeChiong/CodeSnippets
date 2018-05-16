@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark-  &lt;#这里写释义#&gt;</string>
+	<string>#pragma mark-  *** &lt;#这里写释义#&gt; ***</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>7092D62A-C577-4600-B1CB-11DADBC7A442</string>
 	<key>IDECodeSnippetLanguage</key>

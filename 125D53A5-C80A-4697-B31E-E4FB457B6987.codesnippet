@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark-   notification</string>
+	<string>#pragma mark-   *** notification ***</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>125D53A5-C80A-4697-B31E-E4FB457B6987</string>
 	<key>IDECodeSnippetLanguage</key>

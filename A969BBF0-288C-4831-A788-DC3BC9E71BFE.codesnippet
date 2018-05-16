@@ -9,7 +9,7 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark-   Setter &amp; Getter</string>
+	<string>#pragma mark-   *** Setter &amp; Getter ***</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>A969BBF0-288C-4831-A788-DC3BC9E71BFE</string>
 	<key>IDECodeSnippetLanguage</key>

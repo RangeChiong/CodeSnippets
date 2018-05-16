@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark-  kvo</string>
+	<string>#pragma mark-  *** kvo ***</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>A13B8198-9789-4174-8FA8-8FEC1ABFF0D2</string>
 	<key>IDECodeSnippetLanguage</key>
