@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>strongself</string>
+	<string>sharedproperty</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>__strong typeof(weakself) self = weakself;</string>
+	<string>@property (nonatomic, readonly, class) &lt;#class#&gt; *sharedInstance;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>0C6E8FFA-07E8-420B-8F1F-01A09A94D2C7</string>
+	<string>6F4CEEA8-9AC6-40BA-AC94-210E6C5FF7CF</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Declare strong reference to weakself</string>
+	<string>单例的类属性/方法</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>__strong self</string>
+	<string>propertyshared</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

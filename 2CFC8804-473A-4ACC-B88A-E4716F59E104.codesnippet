@@ -9,7 +9,7 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@strongifyAndReturnIfNil(&lt;#self#&gt;);</string>
+	<string>strongify(&lt;#self#&gt;);</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>2CFC8804-473A-4ACC-B88A-E4716F59E104</string>
 	<key>IDECodeSnippetLanguage</key>

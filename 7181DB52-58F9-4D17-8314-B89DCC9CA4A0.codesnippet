@@ -6,14 +6,14 @@
 	<string>keypath</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>@keyPath(&lt;#self#&gt;, &lt;#property#&gt;)</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>7181DB52-58F9-4D17-8314-B89DCC9CA4A0</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string>keypath</string>
 	<key>IDECodeSnippetTitle</key>

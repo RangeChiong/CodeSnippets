@@ -6,14 +6,14 @@
 	<string>availableiOS</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>@available(iOS &lt;#ver#&gt;, *)</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>E4F44D38-FD3D-4901-9250-4C3DECC4D51F</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string>判断系统某版本是否可用</string>
 	<key>IDECodeSnippetTitle</key>

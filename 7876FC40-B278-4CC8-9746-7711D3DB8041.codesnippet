@@ -6,7 +6,7 @@
 	<string>protocol</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>@protocol &lt;#name#&gt; &lt;NSObject&gt;
@@ -15,7 +15,7 @@
 	<key>IDECodeSnippetIdentifier</key>
 	<string>7876FC40-B278-4CC8-9746-7711D3DB8041</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string>protocol</string>
 	<key>IDECodeSnippetTitle</key>
