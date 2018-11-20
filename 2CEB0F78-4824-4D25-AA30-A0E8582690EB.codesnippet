@@ -6,7 +6,7 @@
 	<string>imple</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>@implementation &lt;#class#&gt;
@@ -17,7 +17,7 @@
 	<key>IDECodeSnippetIdentifier</key>
 	<string>2CEB0F78-4824-4D25-AA30-A0E8582690EB</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string>implementation snippet</string>
 	<key>IDECodeSnippetTitle</key>
